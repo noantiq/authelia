@@ -296,7 +296,7 @@ var DefaultLDAPAuthenticationBackendConfigurationImplementationGLAuth = Authenti
 		DisplayName: ldapAttrDescription,
 		Mail:        ldapAttrMail,
 		MemberOf:    ldapAttrMemberOf,
-		GroupName:   ldapAttrCommonName,
+		GroupName:   ldapAttrOrganizationalUnit,
 	},
 	Timeout: time.Second * 5,
 	TLS: &TLS{

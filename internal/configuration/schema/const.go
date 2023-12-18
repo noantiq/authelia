@@ -134,14 +134,15 @@ const (
 )
 
 const (
-	ldapAttrDistinguishedName = "distinguishedName"
-	ldapAttrMail              = "mail"
-	ldapAttrUserID            = "uid"
-	ldapAttrSAMAccountName    = "sAMAccountName"
-	ldapAttrDisplayName       = "displayName"
-	ldapAttrDescription       = "description"
-	ldapAttrCommonName        = "cn"
-	ldapAttrMemberOf          = "memberOf"
+	ldapAttrDistinguishedName  = "distinguishedName"
+	ldapAttrMail               = "mail"
+	ldapAttrUserID             = "uid"
+	ldapAttrSAMAccountName     = "sAMAccountName"
+	ldapAttrDisplayName        = "displayName"
+	ldapAttrDescription        = "description"
+	ldapAttrCommonName         = "cn"
+	ldapAttrMemberOf           = "memberOf"
+	ldapAttrOrganizationalUnit = "ou"
 )
 
 // Address Schemes.

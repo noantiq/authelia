@@ -195,7 +195,7 @@ Username column.
 |   rfc2307bis    |      uid       | displayName  | mail |     cn     |        N/A         | memberOf  |
 |     freeipa     |      uid       | displayName  | mail |     cn     |        N/A         | memberOf  |
 |      lldap      |      uid       |      cn      | mail |     cn     |        N/A         | memberOf  |
-|     glauth      |       cn       | description  | mail |     cn     |        N/A         | memberOf  |
+|     glauth      |       cn       | description  | mail |     ou     |        N/A         | memberOf  |
 
 #### Filter defaults
 
