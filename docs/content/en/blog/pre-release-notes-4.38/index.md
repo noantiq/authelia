@@ -54,9 +54,9 @@ interested in being involved.
 Actual Builds:
 
 - Container Images:
-  - [docker.io/authelia/authelia:v4.38.0-beta3](https://hub.docker.com/layers/authelia/authelia/v4.38.0-beta3/images/sha256-0c44154ab726991debad0c1c1e8cb471f1d464ec2e16d1f0fe7db52accaa1908?context=explore)
-  - [ghcr.io/authelia/authelia:v4.38.0-beta3](https://github.com/orgs/authelia/packages/container/authelia/142239266?tag=v4.38.0-beta3)
-- [Binaries](https://buildkite.com/authelia/authelia/builds/24725#annotation-ctx-success)
+  - [docker.io/authelia/authelia:v4.38.0-beta3](https://hub.docker.com/layers/authelia/authelia/v4.38.0-beta3/images/sha256-e27de9bda9d82c7674f6c73d058fc135af8b9f2e68910b3702a4241f9a0ccfcd?context=explore)
+  - [ghcr.io/authelia/authelia:v4.38.0-beta3](https://github.com/orgs/authelia/packages/container/authelia/161295764?tag=v4.38.0-beta3)
+- [Binaries](https://buildkite.com/authelia/authelia/builds/25875#annotation-ctx-success)
 
 ### 4.38.0-beta2
 
