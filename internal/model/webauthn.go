@@ -43,7 +43,11 @@ func (u WebAuthnUser) HasFIDOU2F() bool {
 
 // WebAuthnID implements the webauthn.User interface.
 func (u WebAuthnUser) WebAuthnID() []byte {
-	return []byte(u.UserID)
+	id := make([]byte, base64.RawURLEncoding.EncodedLen(len(u.UserID)))
+
+	base64.RawURLEncoding.Encode(id, []byte(u.UserID))
+
+	return id
 }
 
 // WebAuthnName implements the webauthn.User  interface.
