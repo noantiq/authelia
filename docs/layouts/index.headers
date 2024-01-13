@@ -12,6 +12,9 @@
 /client/*
   Content-Type: text/html; charset=UTF-8
 
+/lib/*
+  Content-Type: text/html; charset=UTF-8
+
 /provider/*
   Content-Type: text/html; charset=UTF-8
 
