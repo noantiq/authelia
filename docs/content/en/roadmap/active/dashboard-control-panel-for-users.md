@@ -56,8 +56,7 @@ Allow users to override the detected language in their browser and choose from o
 
 {{< roadmap-status >}}
 
-Add ability for users to view their own sessions and end them, administrators the ability to view all sessions and end
-them, and for administrators to be notified of and add/view/remove bans on users.
+Add ability for users to view their own sessions and end them.
 
 ### Much More
 
