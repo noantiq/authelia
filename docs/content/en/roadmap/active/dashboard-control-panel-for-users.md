@@ -1,7 +1,7 @@
 ---
-title: "Dashboard / Control Panel"
-description: "Authelia Dashboard Implementation"
-lead: "A dashboard or control panel for users and administrators to adjust their settings or Authelia's settings is easily one of the most impactful features we can implment."
+title: "Dashboard / Control Panel for Users"
+description: "Authelia User Dashboard."
+lead: "A dashboard or control panel for users to adjust their settings is easily one of the most impactful features we can implement."
 date: 2022-06-15T17:51:47+10:00
 draft: false
 images: []
@@ -14,9 +14,16 @@ aliases:
   - /r/dashboard
 ---
 
-This feature has several major impacts on other roadmap items. For example several OpenID Connect features would greatly
-benefit from a dashboard. It would also be important when we implement WebAuthn features like passwordless
-authentication allowing users to intentionally register a passwordless credential.
+This feature will pave the way to adding lots of useful user facing features.
+
+It will be important when we implement:
+- WebAuthn features like passwordless authentication allowing users to intentionally register a passwordless credential.
+- Session management features.
+- Many other user self-service related features.
+
+This feature should not be confused with the [Dashboard / Control Panel for Administrators](dashboard-control-panel-for-admins.md)
+which is the dashboard for managing the system settings, as this feature is for the user self-managing their own
+settings instead of the system settings.
 
 ## Stages
 
