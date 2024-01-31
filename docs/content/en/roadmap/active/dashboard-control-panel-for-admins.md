@@ -37,4 +37,30 @@ Decide on a design.
 
 {{< roadmap-status >}}
 
-Implement the pivitol elements of the design.
+Implement the pivotal elements of the design.
+
+### Design Element: Segregation
+
+{{< roadmap-status >}}
+
+Allow the admin UI to be run as a separate process, on a different port, and at a different URL to Authelia itself.
+Alternatively allow it to run as part of the main process and port for minimal configurations.
+
+### User Management
+
+{{< roadmap-status >}}
+
+Manage user accounts with either the internal or LDAP authentication backends. Allow for creation, modification, and
+deletion.
+
+### Session Management
+
+{{< roadmap-status >}}
+
+Manage user sessions for all users.
+
+### OpenID Connect 1.0 Client Management
+
+{{< roadmap-status >}}
+
+Manage client registrations via a web frontend.
